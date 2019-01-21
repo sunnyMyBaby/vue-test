@@ -18,7 +18,7 @@
       "port": "22",
       "ref": "origin/master",
       "repo": "https://github.com/sunnyMyBaby/vue-test.git",
-      "path": "/home/yg/www",
+      "path": "/home/yg/www/vuetest",
       "post-deploy":"pm2 startOrRestart ecosystem.json --env production",
       "env": {
         "NODE_ENV": "production"
